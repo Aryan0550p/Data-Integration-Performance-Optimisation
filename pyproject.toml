@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-data-integration-performance"
+version = "1.0.0"
+description = "Enterprise Data Integration & Performance Optimisation Platform"
+authors = [{ name = "Data Engineering Team" }]
+dependencies = [
+    "pandas>=2.0.0",
+    "SQLAlchemy>=2.0.0",
+    "psycopg2-binary>=2.9.0",
+    "python-dotenv>=1.0.0",
+    "tabulate>=0.9.0",
+    "pydantic>=2.0.0",
+    "Faker>=20.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
