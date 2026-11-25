@@ -251,6 +251,7 @@ pytest tests/ -v
 ---
 
 ## Documentation Links
+- [Project Story, Architecture & Interview Handbook](file:///E:/PROJECTS/DS/Data-Integration-&-Performance-Optimisation/docs/project_story_and_interview_handbook.md)
 - [Pipeline Architecture & System Design](file:///E:/PROJECTS/DS/Data-Integration-&-Performance-Optimisation/docs/architecture.md)
 - [Data Flow Diagrams (DFD Level 0 & Level 1)](file:///E:/PROJECTS/DS/Data-Integration-&-Performance-Optimisation/docs/data_flow.md)
 - [Unified Entity-Relationship Diagram (ERD)](file:///E:/PROJECTS/DS/Data-Integration-&-Performance-Optimisation/docs/erd.md)
